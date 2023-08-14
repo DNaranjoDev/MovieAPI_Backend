@@ -14,6 +14,7 @@ import dev.dnaranjo.movies.repository.ReviewRepository;
 
 @Service
 public class ReviewService {
+    @Autowired
     private ReviewRepository reviewRepository;
     @Autowired
     private MongoTemplate mongoTemplate;
